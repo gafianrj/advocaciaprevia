@@ -5,6 +5,7 @@ import PracticeAreas from './components/PracticeAreas';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
+import LocationMap from './components/LocationMap';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Testimonials />
         <Contact />
+        <LocationMap />
       </main>
       <Footer />
     </div>

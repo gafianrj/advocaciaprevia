@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail } from 'lucide-react';
+import { OFFICE_ADDRESS_FULL } from '../constants/location';
 
 export default function Footer() {
   return (
@@ -22,7 +23,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-gold-500 shrink-0 mt-0.5" />
-                <span>Rua Exemplo, 1000 — Sala 100<br />Bairro Fictício — Cidade/UF</span>
+                <span>{OFFICE_ADDRESS_FULL}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-gold-500 shrink-0" />
