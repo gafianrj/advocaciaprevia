@@ -4,11 +4,14 @@ import { WHATSAPP_URL } from '../constants/whatsapp';
 export default function Hero() {
   return (
     <section id="inicio" className="relative min-h-screen flex items-center pt-24 pb-16 md:pt-20 overflow-hidden bg-[#0a0a0a]">
-      {/* Background image */}
-      <div
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/hero-bg.webp')" }}
-        aria-hidden="true"
+      <img
+        src="/hero-bg.webp"
+        alt="Sala de reuniões do escritório Previa Advocacia"
+        width={1024}
+        height={576}
+        fetchPriority="high"
+        decoding="async"
+        className="absolute inset-0 z-0 w-full h-full object-cover object-center"
       />
 
       {/* Overlay: escuro à esquerda (texto), mais transparente à direita (foto visível) */}

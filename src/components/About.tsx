@@ -16,8 +16,12 @@ export default function About() {
               aria-hidden="true"
             />
             <img
-              src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80"
-              alt="Advogados"
+              src="/about-office.webp"
+              alt="Equipe do escritório Previa Advocacia em Passo Fundo"
+              width={1200}
+              height={800}
+              loading="lazy"
+              decoding="async"
               className="relative z-10 w-full aspect-[4/5] sm:aspect-[3/4] lg:aspect-auto lg:h-[480px] object-cover rounded-sm shadow-2xl grayscale-[20%]"
             />
           </div>
